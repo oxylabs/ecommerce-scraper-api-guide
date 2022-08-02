@@ -4,7 +4,7 @@
 - [Integration methods](#integration-methods)
   - [Push-Pull](#push-pull)
   - [Realtime](#realtime)
-  - [SuperAPI](#superapi)
+  - [Proxy Endpoint](#proxy-endpoint)
 
 
 Oxylabs’ [E-Commerce Scraper API](https://oxylabs.io/products/scraper-api/ecommerce) is a public data scraper API designed to collect real-time localized data and search information from most e-commerce websites at scale. This data gathering tool serves as a trustworthy solution for gathering public information from even the most complex e-commerce websites. E-Commerce Scraper API perfectly fits for business use cases such as price monitoring, product catalog mapping, competitor analysis. 
@@ -203,9 +203,9 @@ curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Con
 }
 ```
 
-### SuperAPI
+### Proxy Endpoint
 
-**SuperAPI request sample using cURL library:**
+**Proxy Endpoint request sample using cURL library:**
 
 ```shell
 curl -k -x realtime.oxylabs.io:60000 -U USERNAME:PASSWORD -H "X-Oxylabs-Geo-Location: United States" -H "X-Oxylabs-Parse: 1" -H "X-Oxylabs-Parser-Type: ecommerce_product" "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
