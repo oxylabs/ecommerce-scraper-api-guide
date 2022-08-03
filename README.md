@@ -7,11 +7,11 @@
   - [Proxy Endpoint](#proxy-endpoint)
 
 
-Oxylabs’ [E-Commerce Scraper API](https://oxylabs.io/products/scraper-api/ecommerce) is a public data scraper API designed to collect real-time localized data and search information from most e-commerce websites at scale. This data gathering tool serves as a trustworthy solution for gathering public information from even the most complex e-commerce websites. E-Commerce Scraper API perfectly fits for business use cases such as price monitoring, product catalog mapping, competitor analysis. 
+Oxylabs’ [E-Commerce Scraper API](https://oxy.yt/PrOG) is a public data scraper API designed to collect real-time localized data and search information from most e-commerce websites at scale. This data gathering tool serves as a trustworthy solution for gathering public information from even the most complex e-commerce websites. E-Commerce Scraper API perfectly fits for business use cases such as price monitoring, product catalog mapping, competitor analysis. 
 
 This quick start guide explains how the E-Commerce Scraper API works. We’ll also go through the process of getting started using this data gathering tool hassle-free.
 
-For a detailed explanation, see our [blog post](https://oxylabs.io/blog/ecommerce-scraper-api-quick-start-guide).
+For a detailed explanation, see our [blog post](https://oxy.yt/crIT).
 
 ## Authentication
 
@@ -211,4 +211,4 @@ curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Con
 curl -k -x realtime.oxylabs.io:60000 -U USERNAME:PASSWORD -H "X-Oxylabs-Geo-Location: United States" -H "X-Oxylabs-Parse: 1" -H "X-Oxylabs-Parser-Type: ecommerce_product" "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
 ```
 
-If you wish to find out more about E-Commerce Scraper API, see our [blog post](https://oxylabs.io/blog/ecommerce-scraper-api-quick-start-guide).
+If you wish to find out more about E-Commerce Scraper API, see our [blog post](https://oxy.yt/crIT).
