@@ -35,6 +35,8 @@ Oxylabs’ E-Commerce Scraper API offers various integration methods.
 curl --user "USERNAME:PASSWORD" 'https://data.oxylabs.io/v1/queries' -H "Content-Type: application/json" -d '{"source": "universal_ecommerce", "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html", "geo_location": "United States", "parse": true, "parser_type": "ecommerce_product"}'
 ```
 
+If you are observing low success rates or retrieve empty content, please try using additional `"render":"html"` parameter in your request. More information about render parameter can be found [here](https://developers.oxylabs.io/scraper-apis/getting-started/api-reference/global-parameter-values#render).
+
 **Sample of the initial response output:**
 
 ```json
@@ -150,6 +152,8 @@ curl --user "USERNAME:PASSWORD" 'http://data.oxylabs.io/v1/queries/6849255332305
 curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Content-Type: application/json" -d '{"source": "universal_ecommerce", "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html", "geo_location": "United States", "parse": true, "parser_type": "ecommerce_product"}'
 ```
 
+If you are observing low success rates or retrieve empty content, please try using additional `"render":"html"` parameter in your request. More information about render parameter can be found [here](https://developers.oxylabs.io/scraper-apis/getting-started/api-reference/global-parameter-values#render).
+
 **Example response body that will be returned on open connection:**
 
 ```json
@@ -210,5 +214,7 @@ curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Con
 ```shell
 curl -k -x realtime.oxylabs.io:60000 -U USERNAME:PASSWORD -H "X-Oxylabs-Geo-Location: United States" -H "X-Oxylabs-Parse: 1" -H "X-Oxylabs-Parser-Type: ecommerce_product" "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
 ```
+
+If you are observing low success rates or retrieve empty content, please try adding additional `"x-oxylabs-render: html"` header with your request.
 
 If you wish to find out more about E-Commerce Scraper API, see our [blog post](https://oxy.yt/crIT).
