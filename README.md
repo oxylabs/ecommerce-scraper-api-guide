@@ -8,6 +8,7 @@
 
 [![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
 
 Oxylabs’ [E-Commerce Scraper API](https://oxy.yt/PrOG) is a public data scraper API designed to collect real-time localized data and search information from most e-commerce websites at scale. This data gathering tool serves as a trustworthy solution for gathering public information from even the most complex e-commerce websites. E-Commerce Scraper API perfectly fits for business use cases such as price monitoring, product catalog mapping, competitor analysis. 
