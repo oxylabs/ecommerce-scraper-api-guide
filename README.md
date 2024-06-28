@@ -39,7 +39,7 @@ Oxylabs’ E-Commerce Scraper API offers various integration methods.
 curl --user "USERNAME:PASSWORD" 'https://data.oxylabs.io/v1/queries' -H "Content-Type: application/json" -d '{"source": "universal_ecommerce", "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html", "geo_location": "United States", "parse": true, "parser_type": "ecommerce_product"}'
 ```
 
-If you are observing low success rates or retrieve empty content, please try using additional `"render":"html"` parameter in your request. More information about render parameter can be found [here](https://developers.oxylabs.io/scraper-apis/getting-started/api-reference/global-parameter-values#render).
+If you are observing low success rates or retrieve empty content, please try using additional `"render":"html"` parameter in your request. More information about render parameter can be found [here](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/javascript-rendering).
 
 **Sample of the initial response output:**
 
@@ -156,7 +156,7 @@ curl --user "USERNAME:PASSWORD" 'http://data.oxylabs.io/v1/queries/6849255332305
 curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Content-Type: application/json" -d '{"source": "universal_ecommerce", "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html", "geo_location": "United States", "parse": true, "parser_type": "ecommerce_product"}'
 ```
 
-If you are observing low success rates or retrieve empty content, please try using additional `"render":"html"` parameter in your request. More information about render parameter can be found [here](https://developers.oxylabs.io/scraper-apis/getting-started/api-reference/global-parameter-values#render).
+If you are observing low success rates or retrieve empty content, please try using additional `"render":"html"` parameter in your request. More information about render parameter can be found [here](https://developers.oxylabs.io/scraper-apis/e-commerce-scraper-api/features/javascript-rendering).
 
 **Example response body that will be returned on open connection:**
 
